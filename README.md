@@ -1,0 +1,4 @@
+PLEASE DO NOT TAKE ANYTHING IN THIS MOD SERIOUSLY
+-
+### Welcome to my repo, this is a (pretty low-medium effort since this is my first time learning the engine) **DELTARUNE** mod made with "Kristal", the "DELTARUNE fangame engine, written in Lua, using LÖVE.".
+The mod is called **"Potential Mod"** (inspiration from "Potential Man"). If you SOMEHOW want to contribute to this, well uh first of all - **I don't know a SINGLE thing how the contribution system works in github** and other git wrappers (gitlab, codeberg, forgejo), and second of all - let's be real. All the people who would want to contribute are probably trolls (LIKE I SAID I DONT KNOW A SINGLE  THING ABOUT CONTRIBUTION).
