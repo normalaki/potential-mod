@@ -7,6 +7,14 @@ function Ben:init()
     self.music = "havanagila"
     self.background = true
     self:addEnemy("ben")
+    function Ben:onBattleStart(action)
+        Game:getPartyMember("ralsei"):addSpell("snowgrave")
+        super.onBattleStart(self, action)
+    end
+    function Ben:onBattleEnd(action)
+        Game:getPartyMember("ralsei"):removeSpell("snowgrave")
+        super.onBattleEnd(self, action)
+    end
 end
 
 return Ben

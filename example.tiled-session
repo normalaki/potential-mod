@@ -1,9 +1,9 @@
 {
-    "activeFile": "scripts/world/maps/room1.tmx",
+    "activeFile": "scripts/world/maps/example_map.tmx",
     "expandedProjectPaths": [
-        "scripts/world",
+        "scripts/world/maps",
         "scripts/world/tilesets",
-        "scripts/world/maps"
+        "scripts/world"
     ],
     "fileStates": {
         "example_tileset.tsx": {
@@ -15,11 +15,11 @@
                 4,
                 3
             ],
-            "scale": 1,
-            "selectedLayer": 2,
+            "scale": 2,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 320,
-                "y": 238.5
+                "x": 354,
+                "y": 202.25
             }
         },
         "scripts/world/maps/penis.tmx": {
@@ -37,27 +37,27 @@
         },
         "scripts/world/maps/room1.tmx": {
             "expandedObjectLayers": [
-                5,
                 4,
+                5,
                 3
             ],
-            "scale": 1.5,
+            "scale": 0.5,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 352.6666666666667,
-                "y": 788.3333333333333
+                "x": 554,
+                "y": 799
             }
         },
         "scripts/world/maps/room2.tmx": {
             "expandedObjectLayers": [
-                5,
                 4,
+                5,
                 3
             ],
             "scale": 0.75,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 399.3333333333333,
+                "x": 400,
                 "y": 239.33333333333326
             }
         },
@@ -84,11 +84,11 @@
         "scripts/world/maps/room2.tmx"
     ],
     "project": "example.tiled-project",
-    "property.type": "string",
+    "property.type": "int",
     "recentFiles": [
-        "scripts/world/maps/example_map.tmx",
         "scripts/world/maps/room2.tmx",
         "scripts/world/maps/room1.tmx",
+        "scripts/world/maps/example_map.tmx",
         "scripts/world/tilesets/example_tileset.tsx",
         "scripts/world/maps/penis.tmx",
         "scripts/world/tilesets/castle.tsx",
