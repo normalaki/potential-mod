@@ -1,0 +1,103 @@
+{
+    "activeFile": "scripts/world/maps/room1.tmx",
+    "expandedProjectPaths": [
+        "scripts/world",
+        "scripts/world/tilesets",
+        "scripts/world/maps"
+    ],
+    "fileStates": {
+        "example_tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/world/maps/example_map.tmx": {
+            "expandedObjectLayers": [
+                4,
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 320,
+                "y": 238.5
+            }
+        },
+        "scripts/world/maps/penis.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3,
+                4
+            ],
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 65,
+                "y": 137.66666666666663
+            }
+        },
+        "scripts/world/maps/room1.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4,
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 352.6666666666667,
+                "y": 788.3333333333333
+            }
+        },
+        "scripts/world/maps/room2.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4,
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 399.3333333333333,
+                "y": 239.33333333333326
+            }
+        },
+        "scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/world/tilesets/example_tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/home/andrii/.local/share/love/kristal/mods/mo/scripts/world/maps",
+    "last.imagePath": "/home/andrii/.local/share/love/kristal/mods/examplemod/assets/sprites/tilesets",
+    "map.height": 12,
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 40,
+    "map.tileWidth": 40,
+    "map.width": 16,
+    "openFiles": [
+        "scripts/world/maps/example_map.tmx",
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/maps/room2.tmx"
+    ],
+    "project": "example.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "scripts/world/maps/example_map.tmx",
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/tilesets/example_tileset.tsx",
+        "scripts/world/maps/penis.tmx",
+        "scripts/world/tilesets/castle.tsx",
+        "example_tileset.tsx"
+    ],
+    "tileset.lastUsedExportFilter": "All Files (*)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 20,
+        "width": 20
+    }
+}

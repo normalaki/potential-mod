@@ -1,0 +1,17 @@
+{
+    "id": "sm",
+    "name": "SM",
+    "subtitle": "",
+
+    "version": "v1.0.0",
+    "engineVer": "v0.10.0-dev",
+
+    "chapter": 2,
+
+    "map": "example_map",
+    "party": ["kris", "ralsei", "susie"],
+    "inventory": {
+        "items": ["darkburger", "darkburger", "ultimate_candy"],
+        "key_items": ["cell_phone"]
+    }
+}
