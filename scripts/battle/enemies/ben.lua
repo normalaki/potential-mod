@@ -22,30 +22,30 @@ function Ben:init()
         "* Let's find a compromise.",
         "* Please dont flame me for this bit :("
     }
-    self.low_health_text = "* You can pacify him."
+    --self.low_health_text = "* A tad bit closer to victory."
     self.waves = {
         "basic",
         "aiming",
         "movingarena"
     }
     self.dialogue = {
-        "We've got a list![wait:5] We've got a list!",
-        "Why have you come \nhere to disturb me?",
-        "I have asked my \nassociates to \nneutralize you.",
-        "Oh please,[wait:5]\n you are a waste\n of time for me.",
+        "We've got a list![wait:5]\nWe've got a list!",
+        "Why have you come\nhere to disturb me?",
+        "I have asked my\nassociates to\nneutralize you.",
+        "Oh please,[wait:5]\nyou are a waste\nof time for me.",
         "You can surrender."
     }
     self:registerAct("Beg")
     self:registerAct("Scream and Argue", "", {"susie"})
     function Ben:onAct(battler, name)
         if name == "Beg" then
-            self.dialogue_override = "I give no mercy\n to people\n like you."
+            self.dialogue_override = "I give no mercy\nto people\nlike you."
             return {
                 "* You beg for mercy.",
                 "* ... and start crying."
             }
         elseif name == "Scream and Argue" then
-            self.dialogue_override = "You are very \n annoying individuals."
+            self.dialogue_override = "You are very\nannoying individuals."
             return {
                 "* You and Susie start running in circles and screaming.",
                 "* It's not working."
