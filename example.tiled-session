@@ -15,11 +15,11 @@
                 4,
                 3
             ],
-            "scale": 2,
+            "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 354,
-                "y": 202.25
+                "x": 198.66666666666663,
+                "y": 252.16666666666669
             }
         },
         "scripts/world/maps/penis.tmx": {
@@ -37,28 +37,40 @@
         },
         "scripts/world/maps/room1.tmx": {
             "expandedObjectLayers": [
-                4,
                 5,
+                4,
                 3
             ],
-            "scale": 0.5,
+            "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 554,
-                "y": 799
+                "x": 582,
+                "y": 686.5
             }
         },
         "scripts/world/maps/room2.tmx": {
             "expandedObjectLayers": [
-                4,
                 5,
+                4,
                 3
             ],
-            "scale": 0.75,
+            "scale": 3,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 400,
-                "y": 239.33333333333326
+                "x": 714.3333333333333,
+                "y": 370.8333333333333
+            }
+        },
+        "scripts/world/maps/room3.tmx": {
+            "expandedObjectLayers": [
+                4,
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 410,
+                "y": 238.5
             }
         },
         "scripts/world/tilesets/castle.tsx": {
@@ -70,7 +82,7 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "/home/andrii/.local/share/love/kristal/mods/mo/scripts/world/maps",
+    "last.exportedFilePath": "/home/andew/Documents/Kristal/mods/potential-mod/scripts/world/maps",
     "last.imagePath": "/home/andrii/.local/share/love/kristal/mods/examplemod/assets/sprites/tilesets",
     "map.height": 12,
     "map.lastUsedExportFilter": "All Files (*)",
@@ -84,11 +96,12 @@
         "scripts/world/maps/room2.tmx"
     ],
     "project": "example.tiled-project",
-    "property.type": "int",
+    "property.type": "string",
     "recentFiles": [
-        "scripts/world/maps/room2.tmx",
-        "scripts/world/maps/room1.tmx",
         "scripts/world/maps/example_map.tmx",
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/maps/room3.tmx",
+        "scripts/world/maps/room2.tmx",
         "scripts/world/tilesets/example_tileset.tsx",
         "scripts/world/maps/penis.tmx",
         "scripts/world/tilesets/castle.tsx",

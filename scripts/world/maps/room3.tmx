@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="24">
+ <editorsettings>
+  <export target="room3.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="music" value="hip-shop"/>
+  <property name="name" value="Rest Room"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/castle.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="18" height="12">
+  <data encoding="csv">
+0,0,0,0,5,10,12,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,5,10,12,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,10,12,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,10,12,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,10,12,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,10,12,0,0,0,6,7,7,7,7,7,8,0,
+0,0,0,0,0,10,12,0,0,0,10,11,11,11,11,11,12,0,
+0,0,0,0,0,10,12,0,0,0,10,11,11,11,11,11,12,0,
+0,0,0,0,0,10,11,7,7,7,11,11,11,11,11,11,12,0,
+0,0,0,0,0,10,11,15,15,15,11,11,11,11,11,11,12,0,
+7,7,7,7,7,11,12,0,0,0,10,11,11,11,11,11,12,0,
+15,15,15,15,15,15,16,0,0,0,14,15,15,15,15,15,16,0
+</data>
+ </layer>
+ <objectgroup color="#00007f" id="2" name="collision">
+  <object id="10" x="0" y="360" width="200" height="40"/>
+  <object id="11" x="0" y="480" width="280" height="40"/>
+  <object id="12" x="280" y="400" width="40" height="120"/>
+  <object id="13" x="320" y="400" width="80" height="40"/>
+  <object id="14" x="360" y="440" width="40" height="40"/>
+  <object id="15" x="400" y="480" width="280" height="40"/>
+  <object id="16" x="680" y="200" width="40" height="280"/>
+  <object id="17" x="400" y="160" width="280" height="40"/>
+  <object id="18" x="360" y="200" width="40" height="120"/>
+  <object id="19" x="280" y="280" width="80" height="40"/>
+  <object id="20" x="280" y="0" width="40" height="280"/>
+  <object id="21" x="200" y="-40" width="80" height="40"/>
+  <object id="22" x="160" y="0" width="40" height="360"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="3" name="objects">
+  <object id="2" name="savepoint" x="440" y="440" width="40" height="40"/>
+  <object id="3" name="transition" x="-40" y="400" width="40" height="80">
+   <properties>
+    <property name="map" value="room2"/>
+    <property name="marker" value="entry2"/>
+   </properties>
+  </object>
+  <object id="8" name="npc" x="600" y="440" width="40" height="40">
+   <properties>
+    <property name="actor" value="pancakeguy"/>
+    <property name="text1_1">* Help!
+[wait:5]* Maple syrup has gotten into my eye and now it's red!</property>
+    <property name="text1_2" value="* Im gonna go blind!"/>
+    <property name="text1_3" value="* .[wait:5].[wait:5].[wait:5]"/>
+    <property name="text2_1" value="* Why did the creator of the mod do this."/>
+    <property name="text2_2" value="* Why couldn't he just put me out of my misery."/>
+    <property name="text3_1" value="* Please tell me you thought these were some pancakes."/>
+   </properties>
+  </object>
+  <object id="9" name="npc" x="520" y="440" width="40" height="40">
+   <properties>
+    <property name="actor" value="excuse_me_pan"/>
+    <property name="text" value="* Прошу вибачення пане."/>
+   </properties>
+  </object>
+  <object id="23" name="interactable" x="200" y="-40" width="80" height="40">
+   <properties>
+    <property name="text" value="* Under construction!"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#9200f3" id="4" name="markers">
+  <object id="7" name="spawn" x="40" y="440">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

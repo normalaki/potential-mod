@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 39,
+  nextobjectid = 45,
   properties = {
     ["name"] = "Test Map - Room 2"
   },
@@ -49,8 +49,8 @@ return {
         0, 0, 0, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
         0, 0, 0, 0, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 0,
         5, 5, 5, 0, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 0,
-        7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 0,
-        15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 16, 0,
+        7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+        15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
       }
@@ -102,13 +102,13 @@ return {
       properties = {},
       objects = {
         {
-          id = 2,
+          id = 42,
           name = "",
           type = "",
           shape = "rectangle",
           x = 0,
-          y = 400,
-          width = 760,
+          y = 280,
+          width = 800,
           height = 40,
           rotation = 0,
           opacity = 1,
@@ -116,27 +116,27 @@ return {
           properties = {}
         },
         {
-          id = 21,
+          id = 43,
           name = "",
           type = "",
           shape = "rectangle",
-          x = 760,
-          y = 320,
+          x = 809,
+          y = 280,
           width = 40,
-          height = 80,
+          height = 160,
           rotation = 0,
           opacity = 1,
           visible = true,
           properties = {}
         },
         {
-          id = 23,
+          id = 44,
           name = "",
           type = "",
           shape = "rectangle",
           x = 0,
-          y = 280,
-          width = 760,
+          y = 400,
+          width = 800,
           height = 40,
           rotation = 0,
           opacity = 1,
@@ -270,6 +270,20 @@ return {
           opacity = 1,
           visible = true,
           properties = {}
+        },
+        {
+          id = 41,
+          name = "entry2",
+          type = "",
+          shape = "point",
+          x = 760,
+          y = 360,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {}
         }
       }
     },
@@ -369,6 +383,22 @@ return {
           properties = {
             ["flag"] = "boss1_enter",
             ["visible"] = false
+          }
+        },
+        {
+          id = 39,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 800,
+          y = 320,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {
+            ["map"] = "room3"
           }
         }
       }

@@ -3,6 +3,9 @@
  <editorsettings>
   <export target="example_map.lua" format="lua"/>
  </editorsettings>
+ <properties>
+  <property name="music" value="deal-gw"/>
+ </properties>
  <tileset firstgid="1" source="../tilesets/example_tileset.tsx"/>
  <layer id="1" name="Tile Layer 1" width="16" height="12">
   <data encoding="csv">

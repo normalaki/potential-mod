@@ -12,6 +12,7 @@ return {
   nextlayerid = 6,
   nextobjectid = 49,
   properties = {
+    ["music"] = "deal-gw",
     ["name"] = "Test Map - Room 1"
   },
   tilesets = {
@@ -594,22 +595,6 @@ return {
             ["text2_5"] = "* You wonder why he posted this gameplay to TikTok.",
             ["text2_6"] = "* So many questions.",
             ["text3_1"] = "* It's the creator of the mod."
-          }
-        },
-        {
-          id = 48,
-          name = "npc",
-          type = "",
-          shape = "rectangle",
-          x = 280,
-          y = 840,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          opacity = 1,
-          visible = true,
-          properties = {
-            ["actor"] = "pancakeguy"
           }
         }
       }

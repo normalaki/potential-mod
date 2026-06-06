@@ -11,7 +11,9 @@ return {
   tileheight = 40,
   nextlayerid = 6,
   nextobjectid = 62,
-  properties = {},
+  properties = {
+    ["music"] = "deal-gw"
+  },
   tilesets = {
     {
       name = "example_tileset",
