@@ -1,9 +1,9 @@
 {
-    "activeFile": "scripts/world/maps/example_map.tmx",
+    "activeFile": "scripts/world/maps/room1.tmx",
     "expandedProjectPaths": [
+        "scripts/world",
         "scripts/world/maps",
-        "scripts/world/tilesets",
-        "scripts/world"
+        "scripts/world/tilesets"
     ],
     "fileStates": {
         "example_tileset.tsx": {
@@ -91,17 +91,18 @@
     "map.tileWidth": 40,
     "map.width": 16,
     "openFiles": [
-        "scripts/world/maps/example_map.tmx",
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/room3.tmx",
         "scripts/world/maps/room1.tmx",
-        "scripts/world/maps/room2.tmx"
+        "scripts/world/maps/example_map.tmx"
     ],
     "project": "example.tiled-project",
     "property.type": "string",
     "recentFiles": [
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/room3.tmx",
         "scripts/world/maps/example_map.tmx",
         "scripts/world/maps/room1.tmx",
-        "scripts/world/maps/room3.tmx",
-        "scripts/world/maps/room2.tmx",
         "scripts/world/tilesets/example_tileset.tsx",
         "scripts/world/maps/penis.tmx",
         "scripts/world/tilesets/castle.tsx",

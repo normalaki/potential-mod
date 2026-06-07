@@ -9,7 +9,7 @@
     "chapter": 2,
 
     "map": "example_map",
-    "party": ["kris", "ralsei", "susie"],
+    "party": ["kris", "susie", "ralsei"],
     "inventory": {
         "items": ["darkburger", "darkburger", "ultimate_candy"],
         "key_items": ["cell_phone"]
