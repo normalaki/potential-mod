@@ -1,3 +1,5 @@
+--IF YOU NOTICE THIS I BEG YOU PLEASE DM ME ON DISCORD I WILL BE SO FUCKING HAPPY
+--chk_it
 return {
     scene = function(cutscene, event)
         cutscene:wait(cutscene:walkTo("kris", "kris_pos_cut", 0.50, "up"))
