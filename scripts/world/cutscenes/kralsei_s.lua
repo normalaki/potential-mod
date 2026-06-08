@@ -19,7 +19,7 @@ return {
                 cutscene:wait(3.5)
                 Assets.playSound("splat")
                 cutscene:wait(2)
-                local success, result_text = Game.inventory:tryGiveItem("dildo")
+                local success, result_text = Game.inventory:tryGiveItem("superweapon")
                 cutscene:text(result_text)
             else
                 cutscene:text("[voice:ralsei]I really thought...")
