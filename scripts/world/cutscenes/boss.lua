@@ -16,7 +16,7 @@ return {
         --cutscene:wait(cutscene:walkTo("kris", "kris_boss", 0.5))
         cutscene:text("* In the year 2026,[wait:5] a virus called [color:red]Hantavirus[color:reset] will emerge.", "blush_smile", ralsei)
         cutscene:text("* It will start on a cruise ship and cause massive panic.", "blush_smile", ralsei)
-        cutscene:text("* But of course, it will be forgotten a few days later.", "blush_smile", ralsei)
+        cutscene:text("* But of course,[wait:5] it will be forgotten a few days later.", "blush_smile", ralsei)
         cutscene:text("* ...", "nervous_side", susie)
         cutscene:text("* Ralsei what the [color:red]FUCK[color:reset] are you on about!!!", "teeth_b", susie)
         cutscene:attachCamera()
